@@ -8,7 +8,7 @@ export const Home=()=>{
             <p className="text-gray-400 text-l mb-8 max-w-lg mx-auto">
                I'm a Software Developer 
             </p>
-            <div className="justify-center space-x-4">
+            <div className=" flex flex-wrap justify-center gap-4">
                 <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
                     View Projects
                 </a>
@@ -23,8 +23,8 @@ export const Home=()=>{
                         rel="noopener noreferrer"
                         className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]]"
                     >
-                        View Resume
-                    </a>
+                    View Resume
+                </a>
 
             
             </div>
